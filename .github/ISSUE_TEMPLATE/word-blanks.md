@@ -21,3 +21,26 @@ In this challenge, we provide you with a noun, a verb, an adjective and an adver
 You will need to use the string concatenation operator + to build a new string, using the provided variables: myNoun, myAdjective, myVerb, and myAdverb. You will then assign the formed string to the result variable.
 
 You will also need to account for spaces in your string, so that the final sentence has spaces between all the words. The result should be a complete sentence.
+
+###My Response
+
+<p id="demo"></p>
+
+<script>
+
+function wordBlanks(myAdjective, myNoun, myVerb, myAdverb) {
+
+myAdjective ="cat";
+myNoun ="small";
+myVerb = "loud";
+myAdverb="silly";
+
+
+  var result=""
+  result = "My "+myAdjective+" is "+myNoun+" and "+myVerb+" and very "+myAdverb+".";
+
+ return result;
+ 
+}
+document.getElementById("demo").innerHTML = wordBlanks();
+</script>
