@@ -1,9 +1,7 @@
 ---
 name: Word Blanks
 about: 'Basic JavaScript: Word Blanks'
-title: Not really very clear or supportive exercise
-labels: ''
-assignees: ''
+
 
 ---
 
